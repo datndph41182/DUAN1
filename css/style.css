@@ -15,7 +15,7 @@
     margin-bottom: 20px;
 }
 
-.mb{
+.mb10{
     margin-bottom: 10px;
 }
 
@@ -177,7 +177,8 @@
 }
 
 .formtaikhoan input[type="text"],
-.formtaikhoan input[type="password"]{
+.formtaikhoan input[type="password"],
+.formcontent input[type="text"]{
     width: 100%;
     border: 1px #ccc solid;
     padding: 5px 10px;
@@ -188,14 +189,20 @@
     border-radius: 5px;
 }
 
-.formtaikhoan input[type="submit"]{
+.formtaikhoan input[type="submit"],
+.formcontent input[type="submit"],
+.formcontent input[type="reset"],
+.formcontent input[type="button"]{
     border-radius: 5px;
     padding: 5px 10px;
     background-color: white;
     border: 1px #ccc solid;
 }
 
-.formtaikhoan input[type="submit"]:hover{
+.formtaikhoan input[type="submit"]:hover,
+.formcontent input[type="submit"]:hover,
+.formcontent input[type="reset"]:hover,
+.formcontent input[type="button"]:hover{
     background-color: #ccc;
 }
 
@@ -257,4 +264,53 @@
 .top10 a:hover{
     color: #000;
     text-decoration: underline;
+}
+
+.header {
+    border: 1px #000 solid;
+    font-size: 0.8vw;
+    color: rgb(154, 70, 164);
+    border-radius: 5px;
+    background-color: #eee;
+}
+
+.header h1{
+    margin: 10px 20px;
+}
+
+/*ADMIN*/
+
+.formcontent{
+    padding: 20px 0px;
+}
+
+.formdsloai table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.formdsloai table th:nth-child(1){
+    width: 10%;
+    padding: 20px 0px;
+    background-color: #ccc;
+}
+
+.formdsloai table th:nth-child(2){
+    width: 30%;
+    background-color: #ccc;
+}
+
+.formdsloai table th:nth-child(3){
+    width: 40%;
+    background-color: #ccc;
+}
+
+.formdsloai table th:nth-child(4){
+    width: 20%;
+    background-color: #ccc;
+}
+
+.formdsloai td{
+    padding: 10px 20px;
+    border: 1px #ccc solid;   
 }
