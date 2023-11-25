@@ -11,17 +11,17 @@
     <div class="boxcenter">
         <div class="row mb">
             <div class="logo">
-                <img src="images/Ảnh chụp màn hình 2023-11-16 123804.png" alt="">
+                <img src="../images/Ảnh chụp màn hình 2023-11-16 123804.png" alt="">
                 <h1>PERFUME DT</h1>
             </div>
         </div>
         <div class="row mb menu">
             <ul>
-                <li><a href="trangchu_admin.html">Trang chủ</a></li>
-                <li><a href="admin.html">Danh mục</a></li>
-                <li><a href="#">Sản phẩm</a></li>
-                <li><a href="#">Khách hàng</a></li>
-                <li><a href="#">Bình luận</a></li>
-                <li><a href="#">Thống kê</a></li>
+                <li><a href="index.php">Trang chủ</a></li>
+                <li><a href="index.php?act=adddm">Danh mục</a></li>
+                <li><a href="index.php?act=addsp">Sản phẩm</a></li>
+                <li><a href="index.php?act=dskh">Khách hàng</a></li>
+                <li><a href="index.php?act=dsbl">Bình luận</a></li>
+                <li><a href="index.php?act=thongke">Thống kê</a></li>
             </ul>
         </div>

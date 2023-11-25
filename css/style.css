@@ -289,24 +289,8 @@
     border-collapse: collapse;
 }
 
-.formdsloai table th:nth-child(1){
-    width: 10%;
-    padding: 20px 0px;
-    background-color: #ccc;
-}
-
-.formdsloai table th:nth-child(2){
-    width: 30%;
-    background-color: #ccc;
-}
-
-.formdsloai table th:nth-child(3){
-    width: 40%;
-    background-color: #ccc;
-}
-
-.formdsloai table th:nth-child(4){
-    width: 20%;
+.formdsloai table th{
+    padding: 10px 20px;
     background-color: #ccc;
 }
 
