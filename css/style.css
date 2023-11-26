@@ -195,24 +195,22 @@
     border-bottom: 1px solid #ccc;
 }
 /* banner */
-.banner{
-    text-align: center;
-    min-height: 250px;
-    width: 100%;
+.banner {
     position: relative;
+    width: 100%;
     max-width: 800px;
     margin: auto;
     overflow: hidden;
-}
-
-.banner img{
-    height: 250px;
-    width: 100%;
-    height: auto;
+    min-height: 250px;
 }
 .banner-slide {
     display: none;
     width: 100%;
+}
+.banner img {
+    width: 100%;
+    height: auto;
+    height: 250px;
 }
 .prev .next {
     position: absolute;
