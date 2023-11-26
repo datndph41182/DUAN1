@@ -187,31 +187,6 @@
             <p>Chào mừng các bạn tới website nước hoa của chúng tôi</p>
         </div>
     </div>
-    <script>
-      function decreaseQuantity(button) {
-          var input = button.nextElementSibling;
-          var value = parseInt(input.value, 10);
-          if (value > 1) {
-              input.value = value - 1;
-          }
-      }
-
-      function increaseQuantity(button) {
-          var input = button.previousElementSibling;
-          input.value = parseInt(input.value, 10) + 1;
-      }
-
-      function addToCart(button) {
-          var productName = button.parentNode.firstChild.textContent;
-          var quantity = button.previousElementSibling.querySelector('input').value;
-          
-          // Perform the necessary actions to add the product to the cart
-          var cartItems = document.getElementById('cart-items');
-          var listItem = document.createElement('li');
-          listItem.textContent = quantity + ' ' + productName;
-          cartItems.appendChild(listItem);
-      }
-  </script>
-
+    <script src="script.js"></script>
 </body>
 </html>
