@@ -212,7 +212,7 @@
     height: auto;
     height: 250px;
 }
-.prev .next {
+.prev, .next {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
