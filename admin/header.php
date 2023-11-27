@@ -4,14 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Header</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../view/css/style.css">
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div class="boxcenter">
         <div class="row mb">
             <div class="logo">
-                <img src="../images/Ảnh chụp màn hình 2023-11-16 123804.png" alt="">
+                <img src="../view/images/Ảnh chụp màn hình 2023-11-16 123804.png" alt="">
                 <h1>PERFUME DT</h1>
             </div>
         </div>
