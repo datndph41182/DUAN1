@@ -218,6 +218,10 @@
     cursor: pointer;
 }
 
+.imgsp{
+    display: flex;
+}
+
 /* banner */
 .banner {
     position: relative;

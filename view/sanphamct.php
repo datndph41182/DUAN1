@@ -3,13 +3,13 @@
         <div class="row mb">
             <?php extract($onesp); ?>
             <div class="boxtitle"><?=$name?></div>
-            <div class="row boxcontent">
+            `<div class="row boxcontent">`
                 <?php
                     
                     $img=$img_path.$img;
-                    echo '<div class="row mb spct"><img src="'.$img.'"></div><br>';
-                    echo $mota;
+                    
                 ?>
+                
                 <div class="box_content">
                         <div class="imgsp">
                             <img src="<?=$img?>" width="350px" height="350" id="main-img">
@@ -20,12 +20,13 @@
                                 <img src="<?=$img?>" width="90" />
                             </p>
                         </div>
+                        <?php echo $mota;?>
                         <div class="ndsp">
-                            <h1>Paco Rabnne Phantom</h1>
+                            <h1><?=$name?></h1>
                             <p>★★★★★</p>
                             <hr>
-                            <h3>Giá: $40.00</h3>
-                            <p><s>$50.00</s> | Tiết kiệm: $10.00</p>
+                            <!-- <h3>Giá: $40.00</h3> -->
+                            <p><s><?=$price?></s> | Tiết kiệm: $10.00</p>
                             <div class="product">
                                 <span>Số lượng:</span>
                                 <div class="quantity">
@@ -36,11 +37,6 @@
                                 <button onclick="addToCart(this)">Thêm vào giỏ hàng</button><br>
                                 <button onclick="addToCart(this)">MUA NGAY</button>
                             </div>
-                            <h2>MÔ TẢ SẢN PHẨM</h2>
-                            <hr>
-                            <p>.....................................................................................</p>
-                            <br>
-                            <p>......................</p>
                         </div>
                     </div>
             </div>
