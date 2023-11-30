@@ -210,6 +210,14 @@
     border-right: 1px solid #ccc;
     border-bottom: 1px solid #ccc;
 }
+.imgsp p img{
+    border: 1px solid white;
+}
+.imgsp p img:hover{
+    border: 1px solid red;
+    cursor: pointer;
+}
+
 /* banner */
 .banner {
     position: relative;
