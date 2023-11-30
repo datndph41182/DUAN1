@@ -348,6 +348,10 @@
 .formtaikhoan li a{
     color: rgb(7, 25, 25);
     text-decoration: none;
+    
+}
+.formtaikhoan li {
+    list-style: none;
 }
 
 .formtaikhoan li a:hover{

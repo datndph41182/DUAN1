@@ -21,11 +21,13 @@
                                     <a href="'.$linksp.'"><img src="'.$hinh.'" alt=""></a>
                                 </div>
                                 <p class="price">'.$price.'</p>
+                                <a href="'.$linksp.'">'.$name.'</a>
                             </div>';
                         $i+=1;
                     }
 
                 ?>
+                
             </div>
         </div>
         

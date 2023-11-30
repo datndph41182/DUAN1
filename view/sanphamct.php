@@ -12,12 +12,12 @@
                 ?>
                 <div class="box_content">
                         <div class="imgsp">
-                            <img src="images/Frame_6.png" width="350px" height="350" id="main-img">
+                            <img src="<?=$img?>" width="350px" height="350" id="main-img">
                             <p>
-                                <img src="images/Frame_6.png" width="100" />
-                                <img src="images/z4922720325983_8fef6add3bbaf3fadc2819fd03f21ef1.jpg" width="90" />
-                                <img src="images/z4922720335738_b15f44ad027486d79edade562cb0a682.jpg" width="90" />
-                                <img src="images/z4922720344974_8e32a55f3b760aed8c222913378d12b9.jpg" width="90" />
+                                <img src="<?=$img?>" width="100" />
+                                <img src="<?=$img?>" width="90" />
+                                <img src="<?=$img?>" width="90" />
+                                <img src="<?=$img?>" width="90" />
                             </p>
                         </div>
                         <div class="ndsp">

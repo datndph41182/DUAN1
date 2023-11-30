@@ -28,9 +28,4 @@
                 ?>
             </div>
         </div>
-        
         </div>
-    <!-- <div class="boxphai">
-        <?php include "view/boxright.php"; ?>
-    </div>
-</div> -->

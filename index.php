@@ -50,6 +50,9 @@ if((isset($_GET['act']))&&($_GET['act']!="")){
             }
             include "view/taikhoan/dangky.php";
             break;
+        case 'dangnhap':
+            include "view/taikhoan/dangnhap.php";
+            break;
         case 'gioithieu':
             include "view/gioithieu.php";
             break;
