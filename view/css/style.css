@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 .boxcenter{
-    width: 60%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -30,6 +30,7 @@
 
 .logo{
     display: flex;
+    text-align: center;
 }
 
 .logo img{
@@ -52,6 +53,7 @@
     background-color: rgb(48, 48, 48);
     border-radius: 5px;
     color: white;
+    display: flex;
 }
 
 .boxtrai{
@@ -152,14 +154,28 @@
 }
 
 .footer{
-    font-size: 1vw;
-    background-color: aquamarine;
+    background-color: rgb(51, 47, 47);
     border-radius: 5px;
     text-align: center;
-    color: rebeccapurple;
+    color: #fff;
     border: 1px solid rgb(10, 43, 32);
 }
 
+.footer h1{
+    font-size: 1vw;
+}
+
+.footer h2{
+    padding-left: 100px;
+}
+.footer p{
+    font-size: 0.7vw;
+    padding: 10px 20px;
+}
+
+.footer_content{
+    display: flex;
+}
 .boxtitle{
     color: #333;
     padding: 10px;
@@ -198,7 +214,7 @@
 .banner {
     position: relative;
     width: 100%;
-    max-width: 800px;
+    max-width: 100%;
     margin: auto;
     overflow: hidden;
     min-height: 250px;
@@ -262,19 +278,20 @@
 }
 
 .menu ul{
+    width: 100%;
     padding: 0 15px;
 }
 
 .menu ul li{
     list-style: none;
     display: inline;
-    padding: 0 15px;
+    padding: 0 20px;
 }
 
 .menu ul li a{
     color: white;
     text-decoration: none;
-
+    font-size: 25px;
 }
 
 .menu ul li a:hover{
@@ -289,6 +306,7 @@
 }
 
 .formtaikhoan input[type="text"],
+.formtaikhoan input[type="email"],
 .formtaikhoan input[type="password"],
 .formcontent input[type="text"]{
     width: 100%;
@@ -302,6 +320,7 @@
 }
 
 .formtaikhoan input[type="submit"],
+.formtaikhoan input[type="reset"],
 .formcontent input[type="submit"],
 .formcontent input[type="reset"],
 .formcontent input[type="button"]{
@@ -428,7 +447,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-    max-width: 1000px;
+    max-width: 100%;
     position: relative;
     margin: auto;
   }
@@ -436,6 +455,12 @@
   /* Hide the images by default */
   .mySlides {
     display: none;
+  }
+
+  .mySlides img{
+    width: 100%;
+    border-radius: 30px;
+    object-fit: fill;
   }
   
   /* Next & previous buttons */
@@ -546,4 +571,17 @@
   
   .contact-form button:hover {
     background-color: #555;
+  }
+
+  .boxcontentt{
+    width: 100%;
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .icon img {
+    font-size: 10px; /* Điều chỉnh kích thước của biểu tượng */
   }

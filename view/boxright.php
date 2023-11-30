@@ -17,7 +17,7 @@
                 <input type="submit" value="Đăng nhập">
             </div>
             <li><a href="#">Đăng nhập</a></li>
-            <li><a href="#">Đăng ký tài khoản</a></li>
+            <li><a href="index.php?act=dangky">Đăng ký tài khoản</a></li>
         </form>
     </div>
     </div>
