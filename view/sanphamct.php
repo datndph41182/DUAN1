@@ -14,13 +14,12 @@
                         <div class="imgsp">
                             <img src="<?=$img?>" width="350px" height="350" id="main-img">
                             <p>
-                                <img src="<?=$img?>" width="100" />
-                                <img src="<?=$img?>" width="90" />
-                                <img src="<?=$img?>" width="90" />
-                                <img src="<?=$img?>" width="90" />
+                                <img src="<?=$img?>" width="90" /> <br>
+                                <img src="<?=$img?>" width="90" /> <br>
+                                <img src="<?=$img?>" width="90" /> <br>
+                                <img src="<?=$img?>" width="90" /> <br>
                             </p>
                         </div>
-                        <?php echo $mota;?>
                         <div class="ndsp">
                             <h1><?=$name?></h1>
                             <p>★★★★★</p>
@@ -39,6 +38,8 @@
                             </div>
                         </div>
                     </div>
+                    <h2>MÔ TẢ SẢN PHẨM</h2>
+                    <?php echo $mota;?>
             </div>
         </div>
         <div class="row mb">
