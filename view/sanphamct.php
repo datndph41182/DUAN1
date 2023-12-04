@@ -13,12 +13,6 @@
                 <div class="box_content">
                         <div class="imgsp">
                             <img src="<?=$img?>" width="350px" height="350" id="main-img">
-                            <p>
-                                <img src="<?=$img?>" width="100" />
-                                <img src="<?=$img?>" width="90" />
-                                <img src="<?=$img?>" width="90" />
-                                <img src="<?=$img?>" width="90" />
-                            </p>
                         </div>
                         <?php echo $mota;?>
                         <div class="ndsp">
@@ -41,11 +35,14 @@
                     </div>
             </div>
         </div>
-        <div class="row mb">
-            <div class="boxtitle">Bình luận</div>
-            <div class="row boxcontent">
-                
-            </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                $("#binhluan").load("view/binhluan/binhluanform.php", {idpro: <?=$id?>});
+            });
+        </script>
+        <div class="row" id="binhluan">
+            
         </div>
         <div class="row mb">
             <div class="boxtitle">Sản phẩm cùng loại</div>

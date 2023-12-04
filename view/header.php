@@ -31,8 +31,8 @@
             <li><a href="index.php?act=gioithieu">Giới thiệu</a></li>
             <li><a href="index.php?act=lienhe">Liên hệ</a></li>
             <li><a href="index.php?act=hoidap">Hỏi đáp</a></li>
-            <li><a href="index.php?act=dangnhap"><i id="sign-icon" style="color: white; float:right;" class="fa-regular fa-user"></i></a></li>
-            <li><a href=""><i id="sign-icon" style="color: white; float:right; padding-right: 20px;" class="fa-solid fa-cart-shopping"></i></a></li>
+            <li><a href="index.php?act=taikhoan"><i id="sign-icon" style="color: white; float:right;" class="fa-regular fa-user"></i></a></li>
+            <li><a href="index.php?act=addtocart"><i id="sign-icon" style="color: white; float:right; padding-right: 20px;" class="fa-solid fa-cart-shopping"></i></a></li>
         </ul>
         </div>
     </div>
