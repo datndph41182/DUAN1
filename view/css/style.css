@@ -97,9 +97,9 @@
     display: flex;
     flex-wrap: nowrap;
     gap: 30px;
-    border-left:1px solid #ccc;
+    /* border-left:1px solid #ccc;
     border-right:1px solid #ccc;
-    border-bottom:1px solid #ccc;
+    border-bottom:1px solid #ccc; */
     /* border-bottom-left-radius:5px;
     border-bottom-right-radius:5px; */
     min-height:200px;
@@ -211,7 +211,7 @@
     border-bottom: 1px solid #ccc;
 }
 .imgsp p img{
-    border: 1px solid white;
+    border: 1px solid gray;
 }
 .imgsp p img:hover{
     border: 1px solid red;
@@ -220,6 +220,7 @@
 
 .imgsp{
     display: flex;
+    margin-right: 100px;
 }
 
 /* banner */

@@ -13,8 +13,16 @@
                 <div class="box_content">
                         <div class="imgsp">
                             <img src="<?=$img?>" width="350px" height="350" id="main-img">
+<<<<<<< HEAD
+=======
+                            <p>
+                                <img src="<?=$img?>" width="90" /> <br>
+                                <img src="<?=$img?>" width="90" /> <br>
+                                <img src="<?=$img?>" width="90" /> <br>
+                                <img src="<?=$img?>" width="90" /> <br>
+                            </p>
+>>>>>>> 36f24964213c74b33d7fb586cbf5fd6530279a33
                         </div>
-                        <?php echo $mota;?>
                         <div class="ndsp">
                             <h1><?=$name?></h1>
                             <p>★★★★★</p>
@@ -33,6 +41,8 @@
                             </div>
                         </div>
                     </div>
+                    <h2>MÔ TẢ SẢN PHẨM</h2>
+                    <?php echo $mota;?>
             </div>
         </div>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
