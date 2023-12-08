@@ -89,22 +89,26 @@
     <!-- end header section -->
 
     <!-- Product Details -->
+    
   <div class="container mt-5">
+    <div class="heading_container ">
+      <h2>Chi tiết sản phẩm</h2>
+    </div>
     <div class="row">
       <div class="col-lg-6">
         <div id="productCarousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="path/to/product-image-1.jpg" class="d-block w-100" alt="Product Image 1">
+              <img src="images/Frame_4.png" class="d-block w-80" alt="Product Image 1">
             </div>
             <div class="carousel-item">
-              <img src="path/to/product-image-2.jpg" class="d-block w-100" alt="Product Image 2">
+              <img src="images/Frame_3.png" class="d-block w-80" alt="Product Image 2">
             </div>
             <div class="carousel-item">
-              <img src="path/to/product-image-3.jpg" class="d-block w-100" alt="Product Image 3">
+              <img src="images/Frame_7.png" class="d-block w-80" alt="Product Image 3">
             </div>
             <div class="carousel-item">
-              <img src="path/to/product-image-4.jpg" class="d-block w-100" alt="Product Image 4">
+              <img src="images/Frame_5.png" class="d-block w-80" alt="Product Image 4">
             </div>
           </div>
           <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
@@ -117,20 +121,25 @@
           </a>
         </div>
       </div>
+      
       <div class="col-lg-6">
         <h2 class="my-4">Tên Sản Phẩm</h2>
         <p>Mô tả ngắn về sản phẩm.</p>
         <p><strong>Giá:</strong> $99.99</p>
         <p><strong>Thương hiệu:</strong> ABC Company</p>
         <!-- Add to Cart Button -->
-        <button class="btn btn-primary">Thêm vào giỏ hàng</button>
+        <button class="btn btn-danger">Thêm vào giỏ hàng</button>
+        <button class="btn btn-danger">MUA NGAY</button>
       </div>
+
     </div>
   </div>
 
    <!-- Product Description -->
    <div class="container mt-5">
-    <h3>Mô Tả Sản Phẩm</h3>
+    <div class="heading_container ">
+      <h2>Mô tả sản phẩm</h2>
+    </div>
     <p>
       Chi tiết mô tả sản phẩm. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum justo. Nullam et sapien vel metus facilisis
       tincidunt. Aliquam erat volutpat. Integer vel urna nec felis euismod semper. Sed non accumsan arcu.
@@ -139,7 +148,9 @@
 
   <!-- Comments Section -->
   <div class="container mt-5">
-    <h3>Bình luận</h3>
+    <div class="heading_container ">
+      <h2>Bình luận</h2>
+    </div>
     <!-- Comment Form -->
     <form>
       <div class="form-group">
@@ -162,55 +173,82 @@
     </div>
   </div>
 
-  <!-- Related Products -->
-  <div class="container mt-5">
-    <h3>Sản Phẩm Cùng Loại</h3>
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="path/to/related-product-1.jpg" class="card-img-top" alt="Related Product 1">
-          <div class="card-body">
-            <h5 class="card-title">Sản Phẩm 1</h5>
-            <p class="card-text">$89.99</p>
-            <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
-          </div>
-        </div>
+  <!-- sản phâm cùng loại -->
+  <section class="shop_section layout_padding">
+    <div class="container">
+
+      <div class="heading_container heading_center">
+        <h2>Sản Phẩm Khác</h2>
       </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="path/to/related-product-2.jpg" class="card-img-top" alt="Related Product 2">
-          <div class="card-body">
-            <h5 class="card-title">Sản Phẩm 2</h5>
-            <p class="card-text">$79.99</p>
-            <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
+      <div class="row">
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="chitietsanpham.html">
+              <div class="img-box">
+                <img src="images/Frame_4.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>Ring</h6>
+                <h6>Giá<span> $200</span></h6>
+              </div>
+              <div class="new"><span>New</span></div>
+            </a>
           </div>
         </div>
+        
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/Frame_2.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6>Watch</h6>
+                <h6>Giá<span> $300</span></h6>
+              </div>
+              <div class="new"><span>New</span></div>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/Frame_8.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6> Teddy Bear</h6>
+                <h6>Giá<span> $95</span></h6>
+              </div>
+              <div class="new"><span>New</span></div>
+            </a>
+          </div>
+        </div>
+        
+        <div class="col-sm-6 col-md-4 col-lg-3">
+          <div class="box">
+            <a href="">
+              <div class="img-box">
+                <img src="images/Frame_4.png" alt="">
+              </div>
+              <div class="detail-box">
+                <h6> Teddy Bear</h6>
+                <h6>Giá<span> $95</span></h6>
+              </div>
+              <div class="new"><span>New</span></div>
+            </a>
+          </div>
+        </div>
+
       </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="path/to/related-product-3.jpg" class="card-img-top" alt="Related Product 3">
-          <div class="card-body">
-            <h5 class="card-title">Sản Phẩm 3</h5>
-            <p class="card-text">$99.99</p>
-            <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="path/to/related-product-4.jpg" class="card-img-top" alt="Related Product 4">
-          <div class="card-body">
-            <h5 class="card-title">Sản Phẩm 4</h5>
-            <p class="card-text">$109.99</p>
-            <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
-          </div>
-        </div>
+      <div class="btn-box">
+        <a href="">XEM THÊM</a>
       </div>
     </div>
-  </div>
-
-  </div>
-  <!-- end hero area -->
+  </section>
+  <!-- end sản phẩm cùng loại -->
 
   <section class="info_section  layout_padding2-top">
     <div class="social_container">

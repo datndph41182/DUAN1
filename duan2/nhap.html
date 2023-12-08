@@ -1,58 +1,110 @@
-<!DOCTYPE html>
-<html lang="en">
+<<!DOCTYPE html>
+<html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Chi tiết sản phẩm</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-  <!-- Font Awesome CSS (optional) -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-  <!-- Custom styles -->
-  <style>
-    /* Add your custom styles here */
-  </style>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <title>
+    Giftos
+  </title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
 </head>
+
 <body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <nav class="navbar navbar-expand-lg custom_nav-container ">
+        <a class="navbar-brand" href="index.html">
+          <span>
+            Giftos
+          </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class=""></span>
+        </button>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <a class="navbar-brand" href="#">Tên Sản Phẩm</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="#">Trang Chủ <span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Sản Phẩm</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Liên Hệ</a>
-        </li>
-      </ul>
-    </div>
-  </nav>
+        <div class="collapse navbar-collapse innerpage_navbar" id="navbarSupportedContent">
+          <ul class="navbar-nav  ">
+            <li class="nav-item ">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="shop.html">
+                Shop
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="why.html">
+                Why Us
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="testimonial.html">
+                Testimonial
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact Us</a>
+            </li>
+          </ul>
+          <div class="user_option">
+            <a href="">
+              <i class="fa fa-user" aria-hidden="true"></i>
+              <span>
+                Login
+              </span>
+            </a>
+            <a href="">
+              <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+            </a>
+            <form class="form-inline ">
+              <button class="btn nav_search-btn" type="submit">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- end header section -->
 
-  <!-- Product Details -->
+    <!-- Product Details -->
   <div class="container mt-5">
     <div class="row">
       <div class="col-lg-6">
         <div id="productCarousel" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="path/to/product-image-1.jpg" class="d-block w-100" alt="Product Image 1">
+              <img src="images/Frame_4.png" class="d-block w-80" alt="Product Image 1">
             </div>
             <div class="carousel-item">
-              <img src="path/to/product-image-2.jpg" class="d-block w-100" alt="Product Image 2">
+              <img src="images/Frame_3.png" class="d-block w-80" alt="Product Image 2">
             </div>
             <div class="carousel-item">
-              <img src="path/to/product-image-3.jpg" class="d-block w-100" alt="Product Image 3">
+              <img src="images/Frame_7.png" class="d-block w-80" alt="Product Image 3">
             </div>
             <div class="carousel-item">
-              <img src="path/to/product-image-4.jpg" class="d-block w-100" alt="Product Image 4">
+              <img src="images/Frame_5.png" class="d-block w-80" alt="Product Image 4">
             </div>
           </div>
           <a class="carousel-control-prev" href="#productCarousel" role="button" data-slide="prev">
@@ -67,74 +119,32 @@
       </div>
       <div class="col-lg-6">
         <h2 class="my-4">Tên Sản Phẩm</h2>
-        <p>Mô tả ngắn về sản phẩm. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum justo.</p>
+        <p>Mô tả ngắn về sản phẩm.</p>
         <p><strong>Giá:</strong> $99.99</p>
         <p><strong>Thương hiệu:</strong> ABC Company</p>
         <!-- Add to Cart Button -->
-        <button class="btn btn-primary">Thêm vào giỏ hàng</button>
+        <button class="btn btn-danger">Thêm vào giỏ hàng</button>
+        <button type="button" class="btn custom-btn">Nút đỏ</button>
       </div>
     </div>
   </div>
 
-  <!-- Product Description -->
-  <div class="container mt-5">
-    <h3>Mô Tả Sản Phẩm</h3>
+   <!-- Product Description -->
+   <div class="container mt-5">
+    <div class="heading_container ">
+      <h2>Mô tả sản phẩm</h2>
+    </div>
     <p>
       Chi tiết mô tả sản phẩm. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget risus porta, tincidunt turpis at, interdum justo. Nullam et sapien vel metus facilisis
       tincidunt. Aliquam erat volutpat. Integer vel urna nec felis euismod semper. Sed non accumsan arcu.
     </p>
   </div>
 
-  <!-- Related Products -->
-  <div class="container mt-5">
-    <h3>Sản Phẩm Cùng Loại</h3>
-    <div class="row">
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="path/to/related-product-1.jpg" class="card-img-top" alt="Related Product 1">
-          <div class="card-body">
-            <h5 class="card-title">Sản Phẩm 1</h5>
-            <p class="card-text">$89.99</p>
-            <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="path/to/related-product-2.jpg" class="card-img-top" alt="Related Product 2">
-          <div class="card-body">
-            <h5 class="card-title">Sản Phẩm 2</h5>
-            <p class="card-text">$79.99</p>
-            <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="path/to/related-product-3.jpg" class="card-img-top" alt="Related Product 3">
-          <div class="card-body">
-            <h5 class="card-title">Sản Phẩm 3</h5>
-            <p class="card-text">$99.99</p>
-            <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-3">
-        <div class="card">
-          <img src="path/to/related-product-4.jpg" class="card-img-top" alt="Related Product 4">
-          <div class="card-body">
-            <h5 class="card-title">Sản Phẩm 4</h5>
-            <p class="card-text">$109.99</p>
-            <a href="#" class="btn btn-primary">Xem Chi Tiết</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <!-- Comments Section -->
   <div class="container mt-5">
-    <h3>Bình luận</h3>
+    <div class="heading_container ">
+      <h2>Bình luận</h2>
+    </div>
     <!-- Comment Form -->
     <form>
       <div class="form-group">
@@ -157,10 +167,107 @@
     </div>
   </div>
 
-  <!-- Bootstrap JS and dependencies -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- sản phâm cùng loại -->
+  <section class="shop_section ">
+      <div class="btn-box">
+        <a href="">XEM THÊM</a>
+      </div>
+  </section>
+  <!-- end sản phẩm cùng loại -->
+
+  <section class="info_section  layout_padding2-top">
+    <div class="social_container">
+      <div class="social_box">
+        <a href="">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+        </a>
+        <a href="">
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <div class="info_container ">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-3">
+            <h6>
+              ABOUT US
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <div class="info_form ">
+              <h5>
+                Newsletter
+              </h5>
+              <form action="#">
+                <input type="email" placeholder="Enter your email">
+                <button>
+                  Subscribe
+                </button>
+              </form>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h6>
+              NEED HELP
+            </h6>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet, consectetur adipiscing elit, sed doLorem ipsum dolor sit amet,
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-3">
+            <h6>
+              CONTACT US
+            </h6>
+            <div class="info_link-box">
+              <a href="">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span> Gb road 123 london Uk </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>+01 12345678901</span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span> demo@gmail.com</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- footer section -->
+    <footer class=" footer_section">
+      <div class="container">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://html.design/">Free Html Templates</a>
+        </p>
+      </div>
+    </footer>
+    <!-- footer section -->
+
+  </section>
+
+  <!-- end info section -->
+
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="js/custom.js"></script>
 
 </body>
+
 </html>

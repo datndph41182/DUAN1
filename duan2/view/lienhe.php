@@ -33,7 +33,7 @@
             <div>
               <input type="text" class="message-box" placeholder="Message" />
             </div>
-            <div class="d-flex "><button>SEND</button></div>
+            <div class="d-flex "><button>GỬI</button></div>
           </form>
         </div>
 
